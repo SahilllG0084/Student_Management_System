@@ -12,6 +12,9 @@ import org.hibernate.annotations.DynamicUpdate;
 @Entity
 @Table(name = "STUDENT_DETAILS")
 public class Student {
+         
+         int n =10;
+         String s = "Abc";
 
         public void error()
         {
