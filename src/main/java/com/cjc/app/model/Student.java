@@ -12,6 +12,11 @@ import org.hibernate.annotations.DynamicUpdate;
 @Entity
 @Table(name = "STUDENT_DETAILS")
 public class Student {
+
+        public void error()
+        {
+            System.out.println("Can You See Error Here...");
+        }
   
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
