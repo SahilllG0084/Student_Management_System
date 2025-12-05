@@ -12,19 +12,7 @@ import org.hibernate.annotations.DynamicUpdate;
 @Entity
 @Table(name = "STUDENT_DETAILS")
 public class Student {
-
-	      public void simp()
-	      {
-			  System.out.println("Simp--method");
-	      }
-         int n =10;
-         String s = "Abc";
-
-        public void error()
-        {
-            System.out.println("Can You See Error Here...");
-        }
-  
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int rollno;
